@@ -6,6 +6,6 @@ import com.pluralsight.model.Customer;
 
 public interface CustomerRepository {
 
-	List<Customer> findAll();
+	public abstract List<Customer> findAll();
 
 }

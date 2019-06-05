@@ -1,10 +1,10 @@
-package com.pluralsight.repository;
+package com.pluralsight.service;
 
 import java.util.List;
 
 import com.pluralsight.model.Customer;
 
-public interface CustomerRepository {
+public interface CustomerService {
 
 	List<Customer> findAll();
 
